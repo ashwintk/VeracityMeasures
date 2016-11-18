@@ -5,4 +5,10 @@ hadoop jar $HADOOP_HOME/share/hadoop/tools/lib/hadoop-streaming-2.7.2.jar -D map
  -file /home/paryani/OTCAnalysis/calculateObjectivityMapper.py
  -file /home/paryani/VeracityAnalysis/otcReducer.py -mapper calculateObjectivityMapper.py -reducer otcReducer.py
  -input /TwitterData/FluTweetsText/TweetsJPPreProcess1 -output /paryani/objectivityPart1
+ 
+ 
+ 
+ 
+ 
+ Reducer is same for all the 3 measures
 
